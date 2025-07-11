@@ -17,19 +17,26 @@
     header {
       background: linear-gradient(to right, #ff6a00, #ee0979);
       color: white;
-      padding: 50px 20px;
+      padding: 40px 20px;
       text-align: center;
     }
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 10px;
+    }
     header h1 {
-      font-size: 3em;
+      font-size: 2.8em;
       margin: 0;
     }
     header p {
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
     section {
       background: white;
-      margin: 40px auto;
+      margin: 30px auto;
       padding: 30px;
       max-width: 900px;
       border-radius: 12px;
@@ -66,6 +73,15 @@
     a.button:hover {
       background-color: #d10b6c;
     }
+    .social-icons {
+      margin-top: 30px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #ee0979;
+      font-size: 1.5em;
+    }
     footer {
       text-align: center;
       padding: 30px;
@@ -74,9 +90,11 @@
       font-size: 0.9em;
     }
   </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Fox_anthro_icon.png/120px-Fox_anthro_icon.png" alt="Reynar Logo">
     <h1>REYNAR Token</h1>
     <p>The Official Meme Coin Project — Born from the Fox Spirit</p>
   </header>
@@ -118,6 +136,12 @@
       <li>🔜 Mainnet launch on BSC</li>
     </ul>
     <a href="whitepaper.html" class="button">📖 Read the Whitepaper</a>
+
+    <div class="social-icons">
+      <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
+      <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
   </section>
 
   <footer>
